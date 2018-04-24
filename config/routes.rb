@@ -2,7 +2,7 @@ Rails.application.routes.draw do
   #get 'posts/:id' => "posts#show"
   #we removed the above so that we could refactor using resources
 
-  recources :posts, only :show
+  resources :posts, only :show
   #only specify's we only want the show action to be available (1/7 restful routes)
 
 
