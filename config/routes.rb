@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   #we removed the above so that we could refactor using resources
 
   recources :posts, only :show
-  #only specify's we only want the show route (1/7 restful routes)
+  #only specify's we only want the show action to be available (1/7 restful routes)
 
 
   # The priority is based upon order of creation: first created -> highest priority.
